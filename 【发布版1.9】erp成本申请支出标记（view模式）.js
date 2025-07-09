@@ -1,3 +1,16 @@
+// ==UserScript==
+// @name         建发erp，view模式下，在成本行中添加支付状态指示器
+// @namespace    http://tampermonkey.net/
+// @version      1.9
+// @description  在成本行中添加支付状态指示器，基于金额和备注匹配支付状态
+// @author       Your Name
+// @match        https://erp.lyplus.cn/Operation/ProJectCalculate/ProjectBalanceView.aspx*
+// @grant        GM_xmlhttpRequest
+// @grant        GM_addStyle
+// @run-at       document-idle
+// ==/UserScript==
+// 新增规划求解功能
+// 更加严格的匹配规则
 (function() {
 
     'use strict';
