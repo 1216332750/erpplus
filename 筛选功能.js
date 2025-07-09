@@ -10,7 +10,7 @@
 
 (function() {
     'use strict';
-
+    alert("偷偷注入bug")
     const createElementWithText = (tag, text) => {
         const el = document.createElement(tag);
         el.textContent = text;
