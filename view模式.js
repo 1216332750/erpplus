@@ -1,4 +1,3 @@
-@ -0,0 +1,516 @@
 // ==UserScript==
 // @name         建发ERP成本支付状态指示器
 // @namespace    http://tampermonkey.net/
@@ -515,3 +514,4 @@ async function init() {
 
 if (document.readyState === 'complete') setTimeout(init, 1000);
 else window.addEventListener('load', () => setTimeout(init, 1000));
+
