@@ -1,4 +1,3 @@
-@ -0,0 +1,329 @@
 // ==UserScript==
 // @name         表格增强工具（筛选+排序）-自动触发版
 // @namespace    http://tampermonkey.net/
@@ -328,3 +327,4 @@
         init();
     }
 })();
+
