@@ -1,4 +1,3 @@
-@ -0,0 +1,484 @@
 // ==UserScript==
 // @name         建发erp支付状态指示器（全状态显示版）
 // @namespace    http://tampermonkey.net/
@@ -483,3 +482,4 @@
     }
 
 })();
+
